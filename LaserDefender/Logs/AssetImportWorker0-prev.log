@@ -1,0 +1,785 @@
+Using pre-set license
+Desktop is 3840 x 1080 @ 60 Hz
+
+ COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/home/rogizord/unityProjects/githubProj/laser-defender/LaserDefender
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+44847
+Successfully changed project path to: /home/rogizord/unityProjects/githubProj/laser-defender/LaserDefender
+/home/rogizord/unityProjects/githubProj/laser-defender/LaserDefender
+Using Asset Import Pipeline V2.
+Unable to load player prefs
+Refreshing native plugins compatible for Editor in 49,87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Initialize engine version: 2020.3.13f1 (71691879b7f5)
+[Subsystems] Discovering subsystems at path /home/rogizord/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/rogizord/unityProjects/githubProj/laser-defender/LaserDefender/Assets
+GLX Extensions: GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_import_context GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_swap_method GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Renderer: AMD Radeon (TM) RX 460 Graphics (POLARIS11, DRM 3.35.0, 5.4.0-80-generic, LLVM 11.0.0)
+Vendor:   X.Org
+Version:  4.6 (Core Profile) Mesa 20.2.6
+GLES:     0
+ GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_framebuffer_multisample_advanced GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_dist
+ance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel
+_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_sparse_buffer GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB
+_texture_barrier GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_
+rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decod
+e GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_control GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1769226928
+Initialize mono
+Mono path[0] = '/home/rogizord/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
+Mono path[1] = '/home/rogizord/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/home/rogizord/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/rogizord/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /home/rogizord/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0,001896 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 48,98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1,951 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0,003191 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 49,53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1,344 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0,56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87,3 MB.
+System memory in use after: 87,2 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2517.
+Total: 4,092105 ms (FindLiveObjects: 0,266667 ms CreateObjectMapping: 0,167496 ms MarkObjects: 3,293056 ms  DeleteObjects: 0,363797 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Sprites
+  artifactKey: Guid(2f5023b87dbd843a38016f2ef363e5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(2f5023b87dbd843a38016f2ef363e5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d757172dd4d2ee39449f03fe1e502a1') in 0,004991 seconds 
+  Import took 0,010121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7,625340 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0,001020 seconds 
+  Import took 0,005472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5,080815 seconds.
+  path: Assets/Fonts
+  artifactKey: Guid(5cec60f971aa856a2a00f18069434ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts using Guid(5cec60f971aa856a2a00f18069434ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6420f396e194d57b54a311c61baeb78') in 0,001193 seconds 
+  Import took 0,008248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4,764714 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(16f53162fd013bdeeb40304948bb776f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(16f53162fd013bdeeb40304948bb776f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152f78e45ce4361bfe3665aefde662eb') in 0,000841 seconds 
+  Import took 0,004756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26,085752 seconds.
+  path: Assets/Sprites/Space-Background-Tiled.png
+  artifactKey: Guid(4761a07874907b40a8ac5d74fa7fa15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Space-Background-Tiled.png using Guid(4761a07874907b40a8ac5d74fa7fa15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189b9df23be147f9d2b4179a77ac2699') in 0,077485 seconds 
+  Import took 0,081301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14,628294 seconds.
+  path: Assets/spaceshooter/PNG/playerShip1_blue.png
+  artifactKey: Guid(8fd66fe6302efaa2c97a8066b5bb2ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/playerShip1_blue.png using Guid(8fd66fe6302efaa2c97a8066b5bb2ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c247bb7953d4a3f48445721e0067f0a') in 0,007042 seconds 
+  Import took 0,011538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000230 seconds.
+  path: Assets/spaceshooter/PNG/playerShip1_orange.png
+  artifactKey: Guid(5fb0c6c3e03af69b698fe9490526e37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/playerShip1_orange.png using Guid(5fb0c6c3e03af69b698fe9490526e37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772f7e518bc5d353ef625fa0df577428') in 0,005699 seconds 
+  Import took 0,009619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000186 seconds.
+  path: Assets/spaceshooter/PNG/playerShip2_red.png
+  artifactKey: Guid(2b7cafc7d1657a3b28572b06fdfd2f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/playerShip2_red.png using Guid(2b7cafc7d1657a3b28572b06fdfd2f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1720aa1d62489f4ff189db182dcd198') in 0,007107 seconds 
+  Import took 0,011273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000206 seconds.
+  path: Assets/spaceshooter/PNG/ufoBlue.png
+  artifactKey: Guid(84c25d341dee219ffa488a64fa28b393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/ufoBlue.png using Guid(84c25d341dee219ffa488a64fa28b393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2abd8d243dd45a538cc406167f9f32') in 0,005422 seconds 
+  Import took 0,009672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000122 seconds.
+  path: Assets/spaceshooter/PNG/playerShip1_green.png
+  artifactKey: Guid(a7286e6bf51dc03e5a8bd10ce1bbb1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/playerShip1_green.png using Guid(a7286e6bf51dc03e5a8bd10ce1bbb1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4135e83e8a610058304e1fc3a420d557') in 0,005551 seconds 
+  Import took 0,009675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000200 seconds.
+  path: Assets/spaceshooter/PNG/ufoRed.png
+  artifactKey: Guid(7334c5bb5d5fcd469a04d92ff3ab1bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/ufoRed.png using Guid(7334c5bb5d5fcd469a04d92ff3ab1bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a269daef9e4ce997905fb638b8b75f') in 0,007401 seconds 
+  Import took 0,011154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000149 seconds.
+  path: Assets/spaceshooter/PNG/ufoYellow.png
+  artifactKey: Guid(50f1da688502c550296badd145798ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/ufoYellow.png using Guid(50f1da688502c550296badd145798ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf711c77ff87e71a7d6474d72b29d37') in 0,005237 seconds 
+  Import took 0,009111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000158 seconds.
+  path: Assets/spaceshooter/PNG/playerShip2_orange.png
+  artifactKey: Guid(28d7ccf9c3ce3f058933c52395a96208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/playerShip2_orange.png using Guid(28d7ccf9c3ce3f058933c52395a96208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea3df6d16e436279fa3656337a0df12') in 0,006236 seconds 
+  Import took 0,010196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000189 seconds.
+  path: Assets/spaceshooter/PNG/playerShip3_green.png
+  artifactKey: Guid(3f0f612c634217a37a56b4a475c37590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/playerShip3_green.png using Guid(3f0f612c634217a37a56b4a475c37590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf59d079138c3993d3fccb4b39d104a') in 0,005326 seconds 
+  Import took 0,011171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,001329 seconds.
+  path: Assets/spaceshooter/PNG/playerShip3_red.png
+  artifactKey: Guid(348665c8488c733cf96b99434f11bfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/playerShip3_red.png using Guid(348665c8488c733cf96b99434f11bfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b3c3ef6c17dd7a93ccc2f9bb1f5231') in 0,004866 seconds 
+  Import took 0,008830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000161 seconds.
+  path: Assets/spaceshooter/PNG/playerShip1_red.png
+  artifactKey: Guid(1ece15ba65d52ef64b24bdc0d5d83f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/playerShip1_red.png using Guid(1ece15ba65d52ef64b24bdc0d5d83f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9deca37372d87bae51c2f757dd0dde') in 0,006076 seconds 
+  Import took 0,009965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000200 seconds.
+  path: Assets/spaceshooter/PNG/playerShip2_green.png
+  artifactKey: Guid(45d02b5353ad121c2a80e821d2f01ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/playerShip2_green.png using Guid(45d02b5353ad121c2a80e821d2f01ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8811da5a22dfc057a222165a595f024') in 0,005153 seconds 
+  Import took 0,009139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000654 seconds.
+  path: Assets/spaceshooter/PNG/ufoGreen.png
+  artifactKey: Guid(cae5663d7764c6db98625efb0e5ee2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/ufoGreen.png using Guid(cae5663d7764c6db98625efb0e5ee2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6a8165093d55e7c9c8ed66d16c63e4') in 0,005485 seconds 
+  Import took 0,009584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000167 seconds.
+  path: Assets/spaceshooter/PNG/playerShip3_orange.png
+  artifactKey: Guid(6e4c3bc72df005fc28f252ed595002e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/playerShip3_orange.png using Guid(6e4c3bc72df005fc28f252ed595002e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50a8a380d41e860df17b869dd79bfc5') in 0,005059 seconds 
+  Import took 0,009050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000222 seconds.
+  path: Assets/spaceshooter/PNG/playerShip3_blue.png
+  artifactKey: Guid(4a55f9e74d3f107f3949ee406ffb0a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/playerShip3_blue.png using Guid(4a55f9e74d3f107f3949ee406ffb0a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7943f471512e357e613fc0124829cbb') in 0,005620 seconds 
+  Import took 0,009551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000181 seconds.
+  path: Assets/spaceshooter/PNG/playerShip2_blue.png
+  artifactKey: Guid(64e51ec216eb491558e9a878c0277831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/playerShip2_blue.png using Guid(64e51ec216eb491558e9a878c0277831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fedd1e17eb30d811d6b3944a2b35e733') in 0,011113 seconds 
+  Import took 0,014866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19,589096 seconds.
+  path: Assets/spaceshooter/PNG/Enemies
+  artifactKey: Guid(ab36b2364fba688fbb363ff78146b979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/Enemies using Guid(ab36b2364fba688fbb363ff78146b979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e26aaee1c153091cc4d4db903d5ec4') in 0,001037 seconds 
+  Import took 0,005503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,001869 seconds.
+  path: Assets/spaceshooter/PNG/Enemies
+  artifactKey: Guid(ab36b2364fba688fbb363ff78146b979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/Enemies using Guid(ab36b2364fba688fbb363ff78146b979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e26aaee1c153091cc4d4db903d5ec4') in 0,000759 seconds 
+  Import took 0,005049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,036875 seconds.
+  path: Assets/spaceshooter/PNG/Enemies/enemyBlack1.png
+  artifactKey: Guid(2e3f59fafe431826fbd6b8682d26c7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/Enemies/enemyBlack1.png using Guid(2e3f59fafe431826fbd6b8682d26c7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630b1dd50afb15d8be994c84c2954902') in 0,005751 seconds 
+  Import took 0,009855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000141 seconds.
+  path: Assets/spaceshooter/PNG/Enemies/enemyGreen3.png
+  artifactKey: Guid(055dff5a3171f4555bd33b7bcb93c8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/Enemies/enemyGreen3.png using Guid(055dff5a3171f4555bd33b7bcb93c8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afbdbf647b93a46835f393b95cec3c9a') in 0,005604 seconds 
+  Import took 0,009563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000223 seconds.
+  path: Assets/spaceshooter/PNG/Enemies/enemyGreen4.png
+  artifactKey: Guid(8423284044a48592f8488270fcc17593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/Enemies/enemyGreen4.png using Guid(8423284044a48592f8488270fcc17593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f9aca7f8d8d34fd53fe9e0f0cc10e0') in 0,004931 seconds 
+  Import took 0,009073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000180 seconds.
+  path: Assets/spaceshooter/PNG/Enemies/enemyBlue1.png
+  artifactKey: Guid(699dc64cc1aadc4b8ba7db9bfff268b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/Enemies/enemyBlue1.png using Guid(699dc64cc1aadc4b8ba7db9bfff268b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98da2f5d38ee6a7c10c8f2daa5b830fd') in 0,010075 seconds 
+  Import took 0,014120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000166 seconds.
+  path: Assets/spaceshooter/PNG/Enemies/enemyBlue5.png
+  artifactKey: Guid(ae50ba8e4f0dd195e973028aa5a03c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/Enemies/enemyBlue5.png using Guid(ae50ba8e4f0dd195e973028aa5a03c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985904052c228d1eb33bcbd78a1f89cc') in 0,005347 seconds 
+  Import took 0,009579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000165 seconds.
+  path: Assets/spaceshooter/PNG/Enemies/enemyRed1.png
+  artifactKey: Guid(dea29eabf09a6e5ef8cded6b93fd8f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/Enemies/enemyRed1.png using Guid(dea29eabf09a6e5ef8cded6b93fd8f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e610bb478813f6e9df7b39d0e9056202') in 0,005183 seconds 
+  Import took 0,009217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000187 seconds.
+  path: Assets/spaceshooter/PNG/Enemies/enemyBlack5.png
+  artifactKey: Guid(627b914edb25442568b83211b83e5ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/Enemies/enemyBlack5.png using Guid(627b914edb25442568b83211b83e5ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72e29d9e35eef22fa264b806b8524a9') in 0,006191 seconds 
+  Import took 0,010125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000309 seconds.
+  path: Assets/spaceshooter/PNG/Enemies/enemyGreen1.png
+  artifactKey: Guid(d7bd7f4b7672ad305887beaa8162666b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/Enemies/enemyGreen1.png using Guid(d7bd7f4b7672ad305887beaa8162666b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7df491227ff3c31ad06e9baa1709b8a') in 0,005082 seconds 
+  Import took 0,008954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000188 seconds.
+  path: Assets/spaceshooter/PNG/Enemies/enemyGreen5.png
+  artifactKey: Guid(fd9725c2b7c13b7ceb2faf48a073ac50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/Enemies/enemyGreen5.png using Guid(fd9725c2b7c13b7ceb2faf48a073ac50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702107096e4940a3ec587792e25b4100') in 0,005551 seconds 
+  Import took 0,009670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000222 seconds.
+  path: Assets/spaceshooter/PNG/Enemies/enemyRed3.png
+  artifactKey: Guid(72ae76d10e976268b85a9b98dcbaf3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/Enemies/enemyRed3.png using Guid(72ae76d10e976268b85a9b98dcbaf3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97be61069b30b5e2d46bd04e1bce9d0') in 0,005603 seconds 
+  Import took 0,009993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000175 seconds.
+  path: Assets/spaceshooter/PNG/Enemies/enemyBlack4.png
+  artifactKey: Guid(d056e07ba024bfc6487da9599389bf02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/Enemies/enemyBlack4.png using Guid(d056e07ba024bfc6487da9599389bf02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d648bc7acab42e64708dda26c403cdd') in 0,004903 seconds 
+  Import took 0,009052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000188 seconds.
+  path: Assets/spaceshooter/PNG/Enemies/enemyRed5.png
+  artifactKey: Guid(ec46c9cdd74179f7a926cd327b93a0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/Enemies/enemyRed5.png using Guid(ec46c9cdd74179f7a926cd327b93a0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab98c6188b60fc4f39c5bd06b78b6909') in 0,005375 seconds 
+  Import took 0,009339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000185 seconds.
+  path: Assets/spaceshooter/PNG/Enemies/enemyBlue3.png
+  artifactKey: Guid(b247a76e7651397ec8ec452743b00d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/Enemies/enemyBlue3.png using Guid(b247a76e7651397ec8ec452743b00d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab3c9f4ed3715dae7d0bd1c57cbf53b4') in 0,005219 seconds 
+  Import took 0,009485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000189 seconds.
+  path: Assets/spaceshooter/PNG/Enemies/enemyRed4.png
+  artifactKey: Guid(f7e5b28a3ebd77d1bb6b0a951cf16be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/Enemies/enemyRed4.png using Guid(f7e5b28a3ebd77d1bb6b0a951cf16be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28923568e02e877f52dfc4e2190ef33c') in 0,006149 seconds 
+  Import took 0,009967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000159 seconds.
+  path: Assets/spaceshooter/PNG/Enemies/enemyBlack2.png
+  artifactKey: Guid(c92967ac171eb31acb6800c7cd113455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/Enemies/enemyBlack2.png using Guid(c92967ac171eb31acb6800c7cd113455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd12756b0ad9bfb47150ec2ead83f7a') in 0,007223 seconds 
+  Import took 0,011063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000197 seconds.
+  path: Assets/spaceshooter/PNG/Enemies/enemyBlack3.png
+  artifactKey: Guid(a9b8fdb29f7d19551988add27c1ba506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/Enemies/enemyBlack3.png using Guid(a9b8fdb29f7d19551988add27c1ba506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65f0cd6eea08748b55664da9f7197cd') in 0,005993 seconds 
+  Import took 0,010150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000163 seconds.
+  path: Assets/spaceshooter/PNG/Enemies/enemyGreen2.png
+  artifactKey: Guid(a9f204cba66c37e61b6bfaf9a351e781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/Enemies/enemyGreen2.png using Guid(a9f204cba66c37e61b6bfaf9a351e781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7156672f03a77c4f5c4c96b5a2f56f4c') in 0,007004 seconds 
+  Import took 0,010866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000262 seconds.
+  path: Assets/spaceshooter/PNG/Enemies/enemyBlue2.png
+  artifactKey: Guid(079e489d61520c00c85f8f25b31db481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/Enemies/enemyBlue2.png using Guid(079e489d61520c00c85f8f25b31db481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60215391b5ce9cdcab46f48b1d305992') in 0,006093 seconds 
+  Import took 0,010435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000252 seconds.
+  path: Assets/spaceshooter/PNG/Enemies/enemyBlue4.png
+  artifactKey: Guid(9aafe3104cfe97e79a86b8aa72f56be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/Enemies/enemyBlue4.png using Guid(9aafe3104cfe97e79a86b8aa72f56be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3aeb73546c6b6a6036cd75159c78b7') in 0,005774 seconds 
+  Import took 0,009880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000205 seconds.
+  path: Assets/spaceshooter/PNG/Enemies/enemyRed2.png
+  artifactKey: Guid(9cf35b111224bc1c3b4c1b18b22c495a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spaceshooter/PNG/Enemies/enemyRed2.png using Guid(9cf35b111224bc1c3b4c1b18b22c495a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fdec60d3271a283926655d6423676f1') in 0,005480 seconds 
+  Import took 0,009140 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,005652 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0,61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2,976 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88,5 MB.
+System memory in use after: 88,5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2546.
+Total: 7,661773 ms (FindLiveObjects: 1,764439 ms CreateObjectMapping: 0,234393 ms MarkObjects: 5,474647 ms  DeleteObjects: 0,185997 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5342,443999 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(f9124bfd1688897aa856d6c9fd98be77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(f9124bfd1688897aa856d6c9fd98be77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914cc459ac39b4d5002852e0c133bcd1') in 0,007380 seconds 
+  Import took 0,013252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4,625033 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(99bdb7505fe246621bfbe159fe2d8813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(99bdb7505fe246621bfbe159fe2d8813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ffc8160c9acf2e289dc070e8ad197a') in 0,000871 seconds 
+  Import took 0,004875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,001537 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(99bdb7505fe246621bfbe159fe2d8813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(99bdb7505fe246621bfbe159fe2d8813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ffc8160c9acf2e289dc070e8ad197a') in 0,000886 seconds 
+  Import took 0,004568 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,003082 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0,48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1,148 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88,6 MB.
+System memory in use after: 88,5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2550.
+Total: 6,598295 ms (FindLiveObjects: 0,346374 ms CreateObjectMapping: 0,128556 ms MarkObjects: 5,905048 ms  DeleteObjects: 0,216868 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 118,197567 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(99bdb7505fe246621bfbe159fe2d8813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(99bdb7505fe246621bfbe159fe2d8813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b700b7399c344ba3edd5b082a7faeee4') in 0,004128 seconds 
+  Import took 0,008198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29,818754 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(99bdb7505fe246621bfbe159fe2d8813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(99bdb7505fe246621bfbe159fe2d8813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c39618bbda84b8a066842f0f55664e') in 0,000875 seconds 
+  Import took 0,011029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,002625 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(99bdb7505fe246621bfbe159fe2d8813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(99bdb7505fe246621bfbe159fe2d8813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c39618bbda84b8a066842f0f55664e') in 0,001893 seconds 
+  Import took 0,007572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 184,574971 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(99bdb7505fe246621bfbe159fe2d8813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(99bdb7505fe246621bfbe159fe2d8813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7002cee5c6e2d24cb94368dffd8f1c') in 0,000976 seconds 
+  Import took 0,005053 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,003077 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0,50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1,131 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88,8 MB.
+System memory in use after: 88,8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2562.
+Total: 3,910653 ms (FindLiveObjects: 0,380984 ms CreateObjectMapping: 0,184296 ms MarkObjects: 3,172087 ms  DeleteObjects: 0,172285 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,008498 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0,49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1,182 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88,8 MB.
+System memory in use after: 88,8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2566.
+Total: 4,757878 ms (FindLiveObjects: 0,226556 ms CreateObjectMapping: 0,118218 ms MarkObjects: 4,203343 ms  DeleteObjects: 0,207054 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,003295 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0,53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1,174 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88,9 MB.
+System memory in use after: 88,8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2570.
+Total: 3,853062 ms (FindLiveObjects: 0,264919 ms CreateObjectMapping: 0,105734 ms MarkObjects: 3,290399 ms  DeleteObjects: 0,190367 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,003066 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0,62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1,228 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88,9 MB.
+System memory in use after: 88,8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2574.
+Total: 5,380265 ms (FindLiveObjects: 0,379247 ms CreateObjectMapping: 0,279488 ms MarkObjects: 4,492427 ms  DeleteObjects: 0,227008 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,003213 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0,55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1,113 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88,9 MB.
+System memory in use after: 88,8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2578.
+Total: 3,970150 ms (FindLiveObjects: 0,234457 ms CreateObjectMapping: 0,098787 ms MarkObjects: 3,444129 ms  DeleteObjects: 0,191325 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,003251 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0,61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1,154 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88,9 MB.
+System memory in use after: 88,8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2582.
+Total: 3,802278 ms (FindLiveObjects: 0,331995 ms CreateObjectMapping: 0,088213 ms MarkObjects: 3,200708 ms  DeleteObjects: 0,179737 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,003265 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0,50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1,159 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88,9 MB.
+System memory in use after: 88,8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2586.
+Total: 4,235098 ms (FindLiveObjects: 0,230485 ms CreateObjectMapping: 0,094363 ms MarkObjects: 3,641080 ms  DeleteObjects: 0,266805 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,003194 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0,59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1,191 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0,47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 2088 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88,9 MB.
+System memory in use after: 88,9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2590.
+Total: 4,114255 ms (FindLiveObjects: 0,358561 ms CreateObjectMapping: 0,090409 ms MarkObjects: 3,482314 ms  DeleteObjects: 0,181191 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
