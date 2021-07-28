@@ -102,6 +102,10 @@ MonoBehaviour:
   laserBeam: {fileID: 5448768423211551571, guid: ce656f97816e530659557f4e09449a4c, type: 3}
   projectileSpeed: 20
   projectileFireingPeriod: 0.1
+  deathSFX: {fileID: 8300000, guid: 835f5e81c0ba4b17883e46538b00c871, type: 3}
+  deathSFXVolume: 0.7
+  shootingSound: {fileID: 8300000, guid: 8d0e06ea140db0ae7b0c9b1cbed52004, type: 3}
+  shootingSFXVolume: 0.25
 --- !u!60 &7714712660901442492
 PolygonCollider2D:
   m_ObjectHideFlags: 0

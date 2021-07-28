@@ -7,16 +7,26 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
 
+    [Header("Enemy stats")]
     [SerializeField] float health = 100;
-    [SerializeField] float shotCounter;
+    [SerializeField] int scoreValue = 150;
+    
+    [Header("Shooting")]
     [SerializeField] float minTimeBetweenShoots = 0.2f;
     [SerializeField] float maxTimeBetweenShoots = 3f;
 
     [SerializeField] float projectileSpeed = -7f;
     [SerializeField] GameObject laserBeam;
+
+    [Header("Effects")]
     [SerializeField] GameObject deathVFX;
     [SerializeField] float exposionDuration;
+    [SerializeField] AudioClip deathSFX;
+    [SerializeField] [Range(0,1)] float deathSFXVolume = 0.7f;
+    [SerializeField] AudioClip shootingSound;
+    [SerializeField] [Range(0,1)] float shootingSFXVolume = 0.25f;
 
+    float shotCounter;
 
     // Start is called before the first frame update
     void Start()
@@ -43,7 +53,7 @@ public class Enemy : MonoBehaviour
                                          transform.position,
                                          Quaternion.identity) as GameObject;
         myLaser.GetComponent<Rigidbody2D>().velocity = new Vector2(0, projectileSpeed);
-        // yield return new WaitForSeconds(projectileFireingPeriod);
+        AudioSource.PlayClipAtPoint(shootingSound, Camera.main.transform.position, shootingSFXVolume);
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
@@ -57,17 +67,20 @@ public class Enemy : MonoBehaviour
     private void ProcessHit(DamageDealer damageDealer) {
         health -= damageDealer.GetDamage();
         damageDealer.Hit();
-        if (health < 0) {
+        if (health <= 0) {
             DestroyEnemy();
         }
     }
 
     private void DestroyEnemy() {
+        FindObjectOfType<GameSession>().AddToScore(scoreValue);
+        Destroy(gameObject);
         GameObject explosion = Instantiate(
             deathVFX,
             transform.position,
             transform.rotation
         );
-        Destroy(gameObject, exposionDuration);
+        AudioSource.PlayClipAtPoint(deathSFX, Camera.main.transform.position, deathSFXVolume);
+        Destroy(explosion, exposionDuration);
     }
 }
