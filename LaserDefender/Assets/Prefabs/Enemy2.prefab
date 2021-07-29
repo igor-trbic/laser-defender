@@ -112,13 +112,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
-  shotCounter: 0
+  scoreValue: 150
   minTimeBetweenShoots: 0.2
   maxTimeBetweenShoots: 3
   projectileSpeed: -7
   laserBeam: {fileID: 1564574618302378168, guid: da3639b311783d765b64e463656f4fea, type: 3}
   deathVFX: {fileID: 1348646893317414332, guid: c7a9348c9c93d8f279b5a3401b8089c4, type: 3}
-  exposionDuration: 0
+  exposionDuration: 0.5
   deathSFX: {fileID: 8300000, guid: 20c49a88b9c408741b94aff0a6de7d5a, type: 3}
   deathSFXVolume: 0.7
   shootingSound: {fileID: 8300000, guid: 4fee6c573cc16f02c8e45e86c142ad92, type: 3}

@@ -36,12 +36,21 @@ public class Player : MonoBehaviour {
     }
 
     private void Move() {
-        float deltaX = Input.GetAxis("Horizontal") * Time.deltaTime * moveSpeed;
-        float deltaY = Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed;
-        var XPos = Mathf.Clamp(transform.position.x + deltaX, xMin, xMax);
-        var YPos = Mathf.Clamp(transform.position.y + deltaY, yMin, yMax);
-        // Debug.Log("xPos = " + XPos + " yPos = " + YPos);
-        transform.position = new Vector2(XPos, YPos);
+        // Check if on mobile
+        #if UNITY_ANDROID && !UNITY_EDITOR
+            if (Input.touchCount > 0) {
+                Touch touch = Input.GetTouch(0);
+                Vector3 touchPos = Camera.main.ScreenToWorldPoint(touch.position);
+                transform.position = new Vector2(touchPos.x, touchPos.y);
+            }
+        #elif UNITY_EDITOR
+            float deltaX = Input.GetAxis("Horizontal") * Time.deltaTime * moveSpeed;
+            float deltaY = Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed;
+            var XPos = Mathf.Clamp(transform.position.x + deltaX, xMin, xMax);
+            var YPos = Mathf.Clamp(transform.position.y + deltaY, yMin, yMax);
+            // Debug.Log("xPos = " + XPos + " yPos = " + YPos);
+            transform.position = new Vector2(XPos, YPos);
+        #endif
     }
 
     private void SetUpMoveBoundaris() {

@@ -118,7 +118,7 @@ MonoBehaviour:
   projectileSpeed: -7
   laserBeam: {fileID: 1564574618302378168, guid: f55172b8dab81de85bc762d1322261c3, type: 3}
   deathVFX: {fileID: 1348646893317414332, guid: c7a9348c9c93d8f279b5a3401b8089c4, type: 3}
-  exposionDuration: 0
+  exposionDuration: 1
   deathSFX: {fileID: 8300000, guid: 20c49a88b9c408741b94aff0a6de7d5a, type: 3}
   deathSFXVolume: 0.7
   shootingSound: {fileID: 8300000, guid: 02204e5ba4d33280f887100dfb86598b, type: 3}
