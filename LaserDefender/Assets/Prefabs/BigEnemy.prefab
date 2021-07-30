@@ -123,6 +123,8 @@ MonoBehaviour:
   deathSFXVolume: 0.7
   shootingSound: {fileID: 8300000, guid: 02204e5ba4d33280f887100dfb86598b, type: 3}
   shootingSFXVolume: 0.25
+  healthUp: {fileID: 7790938195519660100, guid: 6484a158ca60fcec9992cba30fd5e28b, type: 3}
+  chanceToSpawnHealth: 100
 --- !u!58 &2120030500878741310
 CircleCollider2D:
   m_ObjectHideFlags: 0

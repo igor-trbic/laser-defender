@@ -1,7 +1,3 @@
-// using System;
-// using System.Collections;
-// using System.Collections.Generic;
-// using System.Threading;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
@@ -26,6 +22,9 @@ public class Enemy : MonoBehaviour
     [SerializeField] AudioClip shootingSound;
     [SerializeField] [Range(0,1)] float shootingSFXVolume = 0.25f;
 
+    [Header("Power Ups")]
+    [SerializeField] GameObject healthUp;
+    [Range(0, 100)][SerializeField] float chanceToSpawnHealth = 50f;
     float shotCounter;
 
     // Start is called before the first frame update
@@ -74,6 +73,7 @@ public class Enemy : MonoBehaviour
 
     private void DestroyEnemy() {
         FindObjectOfType<GameSession>().AddToScore(scoreValue);
+        SpawnPowerUp();
         Destroy(gameObject);
         GameObject explosion = Instantiate(
             deathVFX,
@@ -82,5 +82,15 @@ public class Enemy : MonoBehaviour
         );
         AudioSource.PlayClipAtPoint(deathSFX, Camera.main.transform.position, deathSFXVolume);
         Destroy(explosion, exposionDuration);
+    }
+
+    private void SpawnPowerUp() {
+        if (Random.Range(0f, 100f) <= chanceToSpawnHealth) {
+            GameObject myPowerUp = Instantiate(
+                healthUp,
+                transform.position,
+                Quaternion.identity
+            ) as GameObject;
+        }
     }
 }
