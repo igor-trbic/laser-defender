@@ -6,7 +6,6 @@ public class Player : MonoBehaviour {
 
     [Header("Player")]
     [SerializeField] float moveSpeed = 10f;
-    [SerializeField] float padding = 0.1f;
     [SerializeField] int health = 500;
     [Header("Projectile")]
     [SerializeField] GameObject laserBeam;
@@ -56,12 +55,10 @@ public class Player : MonoBehaviour {
     private void SetUpMoveBoundaris() {
         Camera gameCam = Camera.main;
 
-        // Padding broken a bit
-        // TODO: fix it later
-        xMin = gameCam.ViewportToWorldPoint(new Vector3(0, 0, 0)).x;// + padding;
-        xMax = gameCam.ViewportToWorldPoint(new Vector3(1, 0, 0)).x;// - padding;
-        yMin = gameCam.ViewportToWorldPoint(new Vector3(0, 0, 0)).y;// + padding;
-        yMax = gameCam.ViewportToWorldPoint(new Vector3(0, 1, 0)).y;// - padding;
+        xMin = gameCam.ViewportToWorldPoint(new Vector3(0, 0, 0)).x + 0.5f;
+        xMax = gameCam.ViewportToWorldPoint(new Vector3(1, 0, 0)).x - 0.5f;
+        yMin = gameCam.ViewportToWorldPoint(new Vector3(0, 0, 0)).y + 0.5f;
+        yMax = gameCam.ViewportToWorldPoint(new Vector3(0, 1, 0)).y - 0.5f;
         Debug.Log("xMin: " + xMin + "xMax: " + xMax+ "yMin: " + yMin + "yMax: " + yMax);
     }
 
@@ -76,9 +73,11 @@ public class Player : MonoBehaviour {
 
     IEnumerator FireContinuously() {
         while (true) {
-            GameObject myLaser = Instantiate(laserBeam,
-                                                transform.position,
-                                                Quaternion.identity) as GameObject;
+            GameObject myLaser = Instantiate(
+                laserBeam,
+                transform.position,
+                Quaternion.identity
+            ) as GameObject;
             myLaser.GetComponent<Rigidbody2D>().velocity = new Vector2(0, projectileSpeed);
             AudioSource.PlayClipAtPoint(shootingSound, Camera.main.transform.position, shootingSFXVolume);
             yield return new WaitForSeconds(projectileFireingPeriod);
@@ -113,5 +112,13 @@ public class Player : MonoBehaviour {
 
     public void AddMoreHealth(int healthAmount) {
         health += healthAmount;
+    }
+
+    public void IncreaseDamage(int amount) {
+        laserBeam.GetComponent<DamageDealer>().IncreaseDamage(amount);
+    }
+
+    public void DecreaseDamage(int amount) {
+        laserBeam.GetComponent<DamageDealer>().DecreaseDamage(amount);
     }
 }

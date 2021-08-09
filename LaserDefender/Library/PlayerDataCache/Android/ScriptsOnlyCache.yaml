@@ -8,6 +8,7 @@ ScriptsOnlyBuild:
     - EnemySpawner
     - GameSession
     - HealthDisplay
+    - HealthUp
     - Level
     - MusicPlayer
     - Player
@@ -19,10 +20,13 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.IK.Runtime.dll:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
@@ -86,45 +90,47 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1480}
+      Script: {instanceID: 1482}
     - Class: 114
-      Script: {instanceID: 1484}
+      Script: {instanceID: 1486}
     - Class: 114
-      Script: {instanceID: 1496}
+      Script: {instanceID: 1498}
     - Class: 114
-      Script: {instanceID: 1710}
+      Script: {instanceID: 1712}
     - Class: 114
-      Script: {instanceID: 1846}
+      Script: {instanceID: 1848}
     - Class: 114
-      Script: {instanceID: 2428}
+      Script: {instanceID: 2430}
     - Class: 114
-      Script: {instanceID: 2652}
+      Script: {instanceID: 2654}
     - Class: 114
-      Script: {instanceID: 2814}
+      Script: {instanceID: 2816}
     - Class: 114
-      Script: {instanceID: 2860}
+      Script: {instanceID: 2862}
     - Class: 114
-      Script: {instanceID: 3270}
+      Script: {instanceID: 3212}
     - Class: 114
-      Script: {instanceID: 3668}
+      Script: {instanceID: 3274}
     - Class: 114
-      Script: {instanceID: 3718}
+      Script: {instanceID: 3672}
     - Class: 114
-      Script: {instanceID: 4008}
+      Script: {instanceID: 3722}
     - Class: 114
-      Script: {instanceID: 4098}
+      Script: {instanceID: 4012}
     - Class: 114
-      Script: {instanceID: 4472}
+      Script: {instanceID: 4102}
     - Class: 114
-      Script: {instanceID: 4656}
+      Script: {instanceID: 4476}
     - Class: 114
-      Script: {instanceID: 5002}
+      Script: {instanceID: 4660}
     - Class: 114
-      Script: {instanceID: 5464}
+      Script: {instanceID: 5006}
     - Class: 114
-      Script: {instanceID: 5492}
+      Script: {instanceID: 5468}
     - Class: 114
-      Script: {instanceID: 5612}
+      Script: {instanceID: 5496}
+    - Class: 114
+      Script: {instanceID: 5616}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -175,27 +181,27 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1480}
+      Script: {instanceID: 1482}
     - Class: 114
-      Script: {instanceID: 1710}
+      Script: {instanceID: 1712}
     - Class: 114
-      Script: {instanceID: 1846}
+      Script: {instanceID: 1848}
     - Class: 114
-      Script: {instanceID: 2652}
+      Script: {instanceID: 2654}
     - Class: 114
-      Script: {instanceID: 2814}
+      Script: {instanceID: 2816}
     - Class: 114
-      Script: {instanceID: 2860}
+      Script: {instanceID: 2862}
     - Class: 114
-      Script: {instanceID: 3270}
+      Script: {instanceID: 3274}
     - Class: 114
-      Script: {instanceID: 3382}
+      Script: {instanceID: 3386}
     - Class: 114
-      Script: {instanceID: 3718}
+      Script: {instanceID: 3722}
     - Class: 114
-      Script: {instanceID: 4098}
+      Script: {instanceID: 4102}
     - Class: 114
-      Script: {instanceID: 4656}
+      Script: {instanceID: 4660}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -244,31 +250,31 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1480}
+      Script: {instanceID: 1482}
     - Class: 114
-      Script: {instanceID: 1710}
+      Script: {instanceID: 1712}
     - Class: 114
-      Script: {instanceID: 1846}
+      Script: {instanceID: 1848}
     - Class: 114
-      Script: {instanceID: 2228}
+      Script: {instanceID: 2230}
     - Class: 114
-      Script: {instanceID: 2652}
+      Script: {instanceID: 2654}
     - Class: 114
-      Script: {instanceID: 2814}
+      Script: {instanceID: 2816}
     - Class: 114
-      Script: {instanceID: 2860}
+      Script: {instanceID: 2862}
     - Class: 114
-      Script: {instanceID: 3270}
+      Script: {instanceID: 3274}
     - Class: 114
-      Script: {instanceID: 3382}
+      Script: {instanceID: 3386}
     - Class: 114
-      Script: {instanceID: 4098}
+      Script: {instanceID: 4102}
     - Class: 114
-      Script: {instanceID: 4656}
+      Script: {instanceID: 4660}
     - Class: 114
-      Script: {instanceID: 4722}
+      Script: {instanceID: 4726}
     - Class: 114
-      Script: {instanceID: 5098}
+      Script: {instanceID: 5102}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -530,6 +536,12 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
+      Hash: 614f253ec94865a5e9616805ddd16032
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HealthUp
+  - hash:
+      serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -662,7 +674,7 @@ ScriptsOnlyBuild:
     className: PositionAsUV1
   - hash:
       serializedVersion: 2
-      Hash: 8418a391b2b59afb04e24ad2573ab869
+      Hash: 3a7b776fc8835fa4ff71a6285e83eaea
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Enemy
@@ -899,4 +911,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/StartMenu.unity
   - Assets/Scenes/Game.unity
   - Assets/Scenes/GameOver.unity
-  playerPath: /home/rogizord/MyGames/LaserDefender.apk
+  playerPath: /home/rogizord/MyGames/LaserDefenderAPPB.aab

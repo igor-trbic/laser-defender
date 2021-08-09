@@ -22,9 +22,8 @@ public class Enemy : MonoBehaviour
     [SerializeField] AudioClip shootingSound;
     [SerializeField] [Range(0,1)] float shootingSFXVolume = 0.25f;
 
-    [Header("Power Ups")]
-    [SerializeField] GameObject healthUp;
-    [Range(0, 100)][SerializeField] float chanceToSpawnHealth = 50f;
+    [Header("Loot Table")]
+    [SerializeField] LootTable lootTable;
     float shotCounter;
 
     // Start is called before the first frame update
@@ -73,7 +72,7 @@ public class Enemy : MonoBehaviour
 
     private void DestroyEnemy() {
         FindObjectOfType<GameSession>().AddToScore(scoreValue);
-        SpawnPowerUp();
+        SpawnLoot();
         Destroy(gameObject);
         GameObject explosion = Instantiate(
             deathVFX,
@@ -84,13 +83,16 @@ public class Enemy : MonoBehaviour
         Destroy(explosion, exposionDuration);
     }
 
-    private void SpawnPowerUp() {
-        if (Random.Range(0f, 100f) <= chanceToSpawnHealth) {
-            GameObject myPowerUp = Instantiate(
-                healthUp,
-                transform.position,
-                Quaternion.identity
-            ) as GameObject;
+    private void SpawnLoot() {
+        if (lootTable != null) {
+            GameObject loot = lootTable.GetLoot();
+            if (loot != null) {
+                GameObject myPowerUp = Instantiate(
+                    loot,
+                    transform.position,
+                    Quaternion.identity
+                ) as GameObject;
+            }
         }
     }
 }

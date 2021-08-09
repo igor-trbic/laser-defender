@@ -51,7 +51,8 @@
      <Compile Include="Assets\Scripts\EnemyPathing.cs" />
      <Compile Include="Assets\Scripts\MusicPlayer.cs" />
      <Compile Include="Assets\Scripts\Spinner.cs" />
-     <Compile Include="Assets\Scripts\WaveConfig.cs" />
+     <Compile Include="Assets\Scripts\Loot\HealthUp.cs" />
+     <Compile Include="Assets\Scripts\ScriptableObjects\WaveConfig.cs" />
      <Compile Include="Assets\Scripts\ScoreDisplay.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\BackgroundScroller.cs" />
@@ -61,7 +62,8 @@
      <Compile Include="Assets\Scripts\HealthDisplay.cs" />
      <Compile Include="Assets\Scripts\DamageDealer.cs" />
      <Compile Include="Assets\Scripts\GameSession.cs" />
-     <Compile Include="Assets\Scripts\HealthUp.cs" />
+     <Compile Include="Assets\Scripts\ScriptableObjects\LootTable.cs" />
+     <Compile Include="Assets\Scripts\Loot\DamageBuff.cs" />
      <None Include="Assets\Zspaceshooter\license.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
