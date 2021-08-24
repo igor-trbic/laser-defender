@@ -10,9 +10,9 @@ public class DamageBuff : MonoBehaviour
         GameObject otherObject = other.gameObject;
         if(otherObject.GetComponent<Player>() != null) {
             if (isAdditive) {
-                otherObject.GetComponent<Player>().IncreaseDamage(damageToAdd);
+                otherObject.GetComponent<Player>().BuffDamage(damageToAdd);
             } else {
-                otherObject.GetComponent<Player>().DecreaseDamage(damageToAdd);
+                otherObject.GetComponent<Player>().DebuffDamage(damageToAdd);
             }
         }
         Destroy(gameObject);

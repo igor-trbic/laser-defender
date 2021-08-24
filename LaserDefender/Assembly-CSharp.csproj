@@ -47,23 +47,24 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Player.cs" />
-     <Compile Include="Assets\Scripts\EnemyPathing.cs" />
-     <Compile Include="Assets\Scripts\MusicPlayer.cs" />
+     <Compile Include="Assets\Scripts\Player\Player.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyPathing.cs" />
+     <Compile Include="Assets\Scripts\GameRelated\MusicPlayer.cs" />
      <Compile Include="Assets\Scripts\Spinner.cs" />
      <Compile Include="Assets\Scripts\Loot\HealthUp.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\WaveConfig.cs" />
      <Compile Include="Assets\Scripts\ScoreDisplay.cs" />
-     <Compile Include="Assets\Scripts\Enemy.cs" />
-     <Compile Include="Assets\Scripts\BackgroundScroller.cs" />
-     <Compile Include="Assets\Scripts\EnemySpawner.cs" />
-     <Compile Include="Assets\Scripts\Level.cs" />
-     <Compile Include="Assets\Scripts\Shreder.cs" />
+     <Compile Include="Assets\Scripts\ScriptableObjects\LootTable.cs" />
+     <Compile Include="Assets\Scripts\Player\LaserShooter.cs" />
+     <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
+     <Compile Include="Assets\Scripts\GameRelated\BackgroundScroller.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemySpawner.cs" />
+     <Compile Include="Assets\Scripts\GameRelated\Level.cs" />
+     <Compile Include="Assets\Scripts\GameRelated\Shreder.cs" />
+     <Compile Include="Assets\Scripts\Loot\DamageBuff.cs" />
      <Compile Include="Assets\Scripts\HealthDisplay.cs" />
      <Compile Include="Assets\Scripts\DamageDealer.cs" />
-     <Compile Include="Assets\Scripts\GameSession.cs" />
-     <Compile Include="Assets\Scripts\ScriptableObjects\LootTable.cs" />
-     <Compile Include="Assets\Scripts\Loot\DamageBuff.cs" />
+     <Compile Include="Assets\Scripts\GameRelated\GameSession.cs" />
      <None Include="Assets\Zspaceshooter\license.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

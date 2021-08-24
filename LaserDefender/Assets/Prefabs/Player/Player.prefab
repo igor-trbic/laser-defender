@@ -31,6 +31,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7380905687780979938}
+  - {fileID: 9001406019936488291}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -98,9 +99,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 20
-  padding: 10
   health: 500
-  laserBeam: {fileID: 5448768423211551571, guid: ce656f97816e530659557f4e09449a4c, type: 3}
+  laserShooter: {fileID: 1260202714418338792}
   projectileSpeed: 25
   projectileFireingPeriod: 0.1
   deathSFX: {fileID: 8300000, guid: 835f5e81c0ba4b17883e46538b00c871, type: 3}
@@ -147,6 +147,79 @@ PolygonCollider2D:
       - {x: 0.23273306, y: -0.2768011}
       - {x: 0.48999998, y: -0.27590054}
       - {x: 0.4818168, y: -0.19954996}
+--- !u!1001 &7769303110844405248
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 9001406020062625211}
+    m_Modifications:
+    - target: {fileID: 1673499653109669219, guid: 0f245b074d36699128642a9212979304, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673499653109669219, guid: 0f245b074d36699128642a9212979304, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673499653109669219, guid: 0f245b074d36699128642a9212979304, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673499653109669219, guid: 0f245b074d36699128642a9212979304, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673499653109669219, guid: 0f245b074d36699128642a9212979304, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673499653109669219, guid: 0f245b074d36699128642a9212979304, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673499653109669219, guid: 0f245b074d36699128642a9212979304, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673499653109669219, guid: 0f245b074d36699128642a9212979304, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673499653109669219, guid: 0f245b074d36699128642a9212979304, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673499653109669219, guid: 0f245b074d36699128642a9212979304, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673499653109669219, guid: 0f245b074d36699128642a9212979304, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673499653109669228, guid: 0f245b074d36699128642a9212979304, type: 3}
+      propertyPath: m_Name
+      value: LaserShooter
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0f245b074d36699128642a9212979304, type: 3}
+--- !u!4 &9001406019936488291 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1673499653109669219, guid: 0f245b074d36699128642a9212979304, type: 3}
+  m_PrefabInstance: {fileID: 7769303110844405248}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1260202714418338792 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8840354640908553704, guid: 0f245b074d36699128642a9212979304, type: 3}
+  m_PrefabInstance: {fileID: 7769303110844405248}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e510005a30460a8dfb3b10f426a9d1af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &9001406019309339744
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -233,7 +306,7 @@ PrefabInstance:
     - target: {fileID: 1911027673638334595, guid: 13c6ae66c48472c75bce62b06cb41927, type: 3}
       propertyPath: ShapeModule.m_Texture
       value: 
-      objectReference: {fileID: 2800000, guid: 1c213842b6ed4b1f295f9d8eeab8ce0d, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 1911027673638334595, guid: 13c6ae66c48472c75bce62b06cb41927, type: 3}
       propertyPath: ShapeModule.radius.value
       value: 0.1
