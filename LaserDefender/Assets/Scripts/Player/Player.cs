@@ -23,12 +23,10 @@ public class Player : MonoBehaviour {
     float yMin;
     float yMax;
 
-    // Start is called before the first frame update
     void Start() {
         SetUpMoveBoundaris();
     }
 
-    // Update is called once per frame
     void Update() {
         Move();
         FireingMyLasers();
