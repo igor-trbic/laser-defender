@@ -13,11 +13,11 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-41651
+36667
 Successfully changed project path to: /home/rogizord/unityProjects/githubProj/laser-defender/LaserDefender
 /home/rogizord/unityProjects/githubProj/laser-defender/LaserDefender
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 52,52 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 52,50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path /home/rogizord/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -33,45 +33,45 @@ _buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_in
 RB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_a
 rray GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_text
 ure_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 1112793648
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 2004311440
 Initialize mono
 Mono path[0] = '/home/rogizord/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = '/home/rogizord/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/home/rogizord/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56545
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56613
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/rogizord/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /home/rogizord/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,001799 seconds.
+Registered in 0,001617 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 59,31 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 53,70 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2,484 seconds
+- Completed reload, in  1,990 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0,003579 seconds.
+Registered in 0,003288 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 113,40 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 53,22 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1,803 seconds
+- Completed reload, in  1,252 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0,57 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0,50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Unloading 2124 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 161,5 MB.
 System memory in use after: 161,4 MB.
 
 Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2561.
-Total: 7,934072 ms (FindLiveObjects: 0,346256 ms CreateObjectMapping: 0,232145 ms MarkObjects: 5,280175 ms  DeleteObjects: 2,072853 ms)
+Total: 3,957223 ms (FindLiveObjects: 0,212041 ms CreateObjectMapping: 0,091775 ms MarkObjects: 3,264000 ms  DeleteObjects: 0,388379 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -84,136 +84,104 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/DamageDealer.cs
-  artifactKey: Guid(756dc1100557315e89ea86fa357ae59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DamageDealer.cs using Guid(756dc1100557315e89ea86fa357ae59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c583a940e88174738cf169521180ea17') in 0,005181 seconds 
-  Import took 0,014218 seconds .
+  path: Assets/Zspaceshooter/PNG/Parts/turretBase_small.png
+  artifactKey: Guid(f558598748aff78e9992e24ec1da491f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zspaceshooter/PNG/Parts/turretBase_small.png using Guid(f558598748aff78e9992e24ec1da491f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee92ba310fd4965c49ed3af517af395') in 0,073501 seconds 
+  Import took 0,078379 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 321,797653 seconds.
-  path: Assets/Prefabs/Projectiles/LaserShooter.prefab
-  artifactKey: Guid(0f245b074d36699128642a9212979304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Projectiles/LaserShooter.prefab using Guid(0f245b074d36699128642a9212979304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b139b69326a3129b86e5b690d322f1') in 0,047949 seconds 
-  Import took 0,053250 seconds .
+  Time since last request: 0,000260 seconds.
+  path: Assets/Zspaceshooter/PNG/Parts/scratch2.png
+  artifactKey: Guid(57e596c9455282af783ac4ba0b094ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zspaceshooter/PNG/Parts/scratch2.png using Guid(57e596c9455282af783ac4ba0b094ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69e367c6f2f21a7e286afb3c0fde9ce') in 0,005406 seconds 
+  Import took 0,009195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000155 seconds.
+  path: Assets/Zspaceshooter/PNG/Parts/scratch1.png
+  artifactKey: Guid(6203b7d73e75894aabc74d2f553a7383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zspaceshooter/PNG/Parts/scratch1.png using Guid(6203b7d73e75894aabc74d2f553a7383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0d7e660a096a6253d50c44e973d6d0') in 0,004699 seconds 
+  Import took 0,008394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000190 seconds.
+  path: Assets/Zspaceshooter/PNG/Parts/turretBase_big.png
+  artifactKey: Guid(6d43c3833c21ce0f18b9180073f86d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zspaceshooter/PNG/Parts/turretBase_big.png using Guid(6d43c3833c21ce0f18b9180073f86d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520a03332fe9e169d63ecab26a39c60d') in 0,007033 seconds 
+  Import took 0,010832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000167 seconds.
+  path: Assets/Zspaceshooter/PNG/Parts/scratch3.png
+  artifactKey: Guid(fe9f8a8fb2161134592af8d8442c4e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zspaceshooter/PNG/Parts/scratch3.png using Guid(fe9f8a8fb2161134592af8d8442c4e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d65a7e98950f45cd2ee66795da2324') in 0,004581 seconds 
+  Import took 0,008186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000176 seconds.
+  path: Assets/Zspaceshooter/PNG/Parts/wingBlue_2.png
+  artifactKey: Guid(bc26db1960bc21c4eb1d35c53f74b103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zspaceshooter/PNG/Parts/wingBlue_2.png using Guid(bc26db1960bc21c4eb1d35c53f74b103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b14a85e9210c86e497edfede36b86c') in 0,005463 seconds 
+  Import took 0,009443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000173 seconds.
+  path: Assets/Zspaceshooter/PNG/Parts/wingBlue_1.png
+  artifactKey: Guid(40c55bd23315bf708b282440e794f661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zspaceshooter/PNG/Parts/wingBlue_1.png using Guid(40c55bd23315bf708b282440e794f661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c3aaffe0c5e66da9ef2d856deee3798') in 0,005006 seconds 
+  Import took 0,009088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,000206 seconds.
+  path: Assets/Zspaceshooter/PNG/Parts/wingBlue_0.png
+  artifactKey: Guid(c017ff52de403423d9184b7aa742c13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zspaceshooter/PNG/Parts/wingBlue_0.png using Guid(c017ff52de403423d9184b7aa742c13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b699af755f958b5494fe9564f7adb3') in 0,005634 seconds 
+  Import took 0,010217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2,625429 seconds.
+  path: Assets/Scripts/Player/Player.cs
+  artifactKey: Guid(99bdb7505fe246621bfbe159fe2d8813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Player.cs using Guid(99bdb7505fe246621bfbe159fe2d8813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17069cc47292375d666edc6044c9290d') in 0,000664 seconds 
+  Import took 0,004428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0,003128 seconds.
+  path: Assets/Scripts/Player/Player.cs
+  artifactKey: Guid(99bdb7505fe246621bfbe159fe2d8813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Player.cs using Guid(99bdb7505fe246621bfbe159fe2d8813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17069cc47292375d666edc6044c9290d') in 0,000632 seconds 
+  Import took 0,004427 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0,003213 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0,60 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,141 seconds
-Platform modules already initialized, skipping
-Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0,57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2109 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 160,2 MB.
-System memory in use after: 160,1 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2565.
-Total: 4,015995 ms (FindLiveObjects: 0,361397 ms CreateObjectMapping: 0,172284 ms MarkObjects: 3,319765 ms  DeleteObjects: 0,161155 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,003150 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0,52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,141 seconds
-Platform modules already initialized, skipping
-Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0,51 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2109 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 160,2 MB.
-System memory in use after: 160,2 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2569.
-Total: 5,018447 ms (FindLiveObjects: 0,346118 ms CreateObjectMapping: 0,169500 ms MarkObjects: 4,309997 ms  DeleteObjects: 0,191610 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,003163 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0,57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1,123 seconds
-Platform modules already initialized, skipping
-Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0,51 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 2109 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 160,2 MB.
-System memory in use after: 160,2 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2573.
-Total: 5,077022 ms (FindLiveObjects: 0,356046 ms CreateObjectMapping: 0,177261 ms MarkObjects: 4,338800 ms  DeleteObjects: 0,203440 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0,003131 seconds.
+Registered in 0,003255 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0,50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1,112 seconds
+- Completed reload, in  1,139 seconds
 Platform modules already initialized, skipping
 Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0,52 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0,50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Unloading 2109 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 160,3 MB.
-System memory in use after: 160,2 MB.
+System memory in use before: 161,4 MB.
+System memory in use after: 161,4 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2577.
-Total: 4,174458 ms (FindLiveObjects: 0,295976 ms CreateObjectMapping: 0,185672 ms MarkObjects: 3,508894 ms  DeleteObjects: 0,182638 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2583.
+Total: 3,937373 ms (FindLiveObjects: 0,231570 ms CreateObjectMapping: 0,097128 ms MarkObjects: 3,445206 ms  DeleteObjects: 0,161526 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -228,24 +196,24 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0,006603 seconds.
+Registered in 0,003263 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0,52 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0,51 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1,138 seconds
+- Completed reload, in  1,092 seconds
 Platform modules already initialized, skipping
 Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0,50 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0,57 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Unloading 2109 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 160,3 MB.
-System memory in use after: 160,2 MB.
+System memory in use before: 161,5 MB.
+System memory in use after: 161,4 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2581.
-Total: 4,541068 ms (FindLiveObjects: 0,268634 ms CreateObjectMapping: 0,162535 ms MarkObjects: 3,921180 ms  DeleteObjects: 0,187078 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2587.
+Total: 3,991456 ms (FindLiveObjects: 0,296066 ms CreateObjectMapping: 0,211069 ms MarkObjects: 3,294536 ms  DeleteObjects: 0,188666 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -257,4 +225,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
