@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HealthUp : MonoBehaviour
+public class ShieldUp : MonoBehaviour
 {
+
     [SerializeField] int healthToAdd;
 
     Player player;
@@ -13,7 +14,7 @@ public class HealthUp : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D collider) {
-        player.AddMoreHealth(healthToAdd);
+        player.ActivateShield();
         Destroy(gameObject);
     }
 }

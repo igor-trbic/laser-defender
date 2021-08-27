@@ -9,12 +9,12 @@ public class Player : MonoBehaviour {
     [SerializeField] int health = 500;
     [Header("Projectile")]
     [SerializeField] LaserShooter laserShooter;
-    [SerializeField] float projectileSpeed = 10f;
     [SerializeField] float projectileFireingPeriod = 0.1f;
     [SerializeField] AudioClip deathSFX;
     [SerializeField] [Range(0,1)] float deathSFXVolume = 0.7f;
     [SerializeField] AudioClip shootingSound;
     [SerializeField] [Range(0,1)] float shootingSFXVolume = 0.25f;
+    [SerializeField] Shield shield;
 
     Coroutine firingCoroutine;
 
@@ -71,14 +71,8 @@ public class Player : MonoBehaviour {
     }
 
     IEnumerator FireContinuously() {
-        // GameObject myLaserShooter = Instantiate(
-        //     laserShooter,
-        //     transform.position,
-        //     Quaternion.identity
-        // ) as GameObject;
         while (true) {
             laserShooter.Shoot();
-            // myLaser.GetComponent<Rigidbody2D>().velocity = new Vector2(0, projectileSpeed);
             AudioSource.PlayClipAtPoint(shootingSound, Camera.main.transform.position, shootingSFXVolume);
             yield return new WaitForSeconds(projectileFireingPeriod);
         }
@@ -120,5 +114,10 @@ public class Player : MonoBehaviour {
 
     public void DebuffDamage(int amount) {
         laserShooter.DebuffDamage(amount);
+    }
+
+    public void ActivateShield() {
+        shield.ResetHitTimes();
+        shield.gameObject.SetActive(true);
     }
 }

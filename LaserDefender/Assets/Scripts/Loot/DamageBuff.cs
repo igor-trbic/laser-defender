@@ -5,7 +5,7 @@ public class DamageBuff : MonoBehaviour
     [SerializeField] int damageToAdd = 50;
     [SerializeField] bool isAdditive = true;
 
-    private void OnTriggerExit2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         GameObject otherObject = other.gameObject;
         if(otherObject.GetComponent<Player>() != null) {
