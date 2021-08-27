@@ -21,6 +21,7 @@ public class Level : MonoBehaviour
     }
 
     IEnumerator WaitAndLoad() {
+        FindObjectOfType<GameSession>().HandlePersonalHighscore();
         yield return new WaitForSeconds(delayInSeconds);
         SceneManager.LoadScene("GameOver");
     }

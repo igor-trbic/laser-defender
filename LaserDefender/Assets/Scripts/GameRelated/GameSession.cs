@@ -19,7 +19,6 @@ public class GameSession : MonoBehaviour {
         }
     }
 
-    // Update is called once per frame
     public int GetScore() {
         return score;
     }
@@ -29,14 +28,11 @@ public class GameSession : MonoBehaviour {
     }
 
     public void ResetGame() {
-        HandlePersonalHighscore();
         Destroy(gameObject);
     }
 
-    private void HandlePersonalHighscore() {
+    public void HandlePersonalHighscore() {
         int currHighscore = PlayerPrefsCtrl.GetHighscore();
-        Debug.Log("HIGHSCORE: " + currHighscore);
-        Debug.Log("CURR SCORE: " + score);
         if (currHighscore < score) {
             PlayerPrefsCtrl.SetHighscore(score);
         }
